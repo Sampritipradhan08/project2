@@ -1,0 +1,129 @@
+@media (max-width: 600px) {
+  .navbar {
+
+    flex-direction: column;
+    height: auto;
+
+    padding: 10px 15px;
+    text-align: center;
+
+
+  }
+  
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+
+      font-size: 14px;
+  }
+
+  .logo img {
+    width: 150px;
+    
+  }
+
+
+
+
+
+
+
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .hero-right h1 {
+    font-size: 24px;
+  }
+
+  .hero-right p {
+    font-size: 14px;
+  }
+
+  .btn-pink {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+  .features,.features-container,.mental-grid,
+  .defense-grid,
+  .prepare-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .confidence-split {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .form-container, .accessibility-section {
+    padding: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .arrow {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 12px;
+  }
+
+
+
+
+
+  .emergency-actions {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+
+
+  .action-card {
+    width: 100%;
+    max-width: 250px;
+
+    margin: 0 auto;
+  }
+
+  .action-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .action-card h3 {
+    font-size: 16px;
+
+
+
+
+  }
+
+
+
+
+}
